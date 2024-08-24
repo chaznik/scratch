@@ -4,10 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
 import java.util.List;
 import java.util.Map;
 
@@ -33,6 +30,12 @@ public class App
 
             JsonNode bonusSymbolNode = rootNode.path("probabilities").path("bonus_symbols");
             Probability bonusSymbol = objectMapper.treeToValue(bonusSymbolNode, new TypeReference<Probability>(){});
+
+            JsonNode winningCombinationNode = rootNode.path("win_combinations");
+            Map<String, WinCombination> winningCombinations = objectMapper.treeToValue(winningCombinationNode, new TypeReference<Map<String, WinCombination>>(){});
+
+            Board board = new Board(rows, columns);
+            board.printBoard();
 
         }
         catch (Exception ex)
