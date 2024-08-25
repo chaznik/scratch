@@ -1,4 +1,4 @@
-package assignment.chaznik;
+package assignment.chaznik.Mappers;
 
 import java.util.Map;
 

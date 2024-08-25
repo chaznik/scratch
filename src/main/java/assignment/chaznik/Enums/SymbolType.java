@@ -1,4 +1,4 @@
-package assignment.chaznik;
+package assignment.chaznik.Enums;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
