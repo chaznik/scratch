@@ -8,12 +8,7 @@
 - feel free to choose any libraries for serialize/deserialize JSON and testing
 - not recommended to add any additional libraries/frameworks, like spring or other high level frameworks
 
-## Description ##
-
-Problem statement: You need to build a scratch game, that will generate a matrix (for example 3x3) from symbols(based on probabilities for each individual cell) and based on winning combintations user either will win or lost.
-User will place a bet with any amount which we call *betting amount* in this assignment.
-
-## To Run
+## To Run ##
 
 1. Ensure Maven is installed
 2. Clone the solution
@@ -21,6 +16,10 @@ User will place a bet with any amount which we call *betting amount* in this ass
 4. Execute program using the following command: java -jar <your-jar-file> --config config.json --betting-amount 100
 5. Please note config is currently located at src/main/resources/config.json
 
+## Description ##
+
+Problem statement: You need to build a scratch game, that will generate a matrix (for example 3x3) from symbols(based on probabilities for each individual cell) and based on winning combintations user either will win or lost.
+User will place a bet with any amount which we call *betting amount* in this assignment.
 
 
 
