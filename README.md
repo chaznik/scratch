@@ -22,6 +22,8 @@ User will place a bet with any amount which we call *betting amount* in this ass
 5. Please note config is currently located at src/main/resources/config.json
 
 
+
+
 There are two types of symbols: Standard Symbols, Bonus Symbols.
 
 **Standard Symbols**: identifies if user won or lost the game based on winning combinations (combination can be X times repeated symbols or symbols that follow a specific pattern)
