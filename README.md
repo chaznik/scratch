@@ -13,7 +13,7 @@
 1. Ensure Maven is installed
 2. Clone the solution
 3. Cd into scratch
-4. Execute program using the following command: java -jar <your-jar-file> --config config.json --betting-amount 100
+4. Execute using : java -jar target/scratch-1.0-SNAPSHOT.jar --config <path-to-config-file> --betting-amount 100
 5. Please note config is currently located at src/main/resources/config.json
 
 ## Description ##
